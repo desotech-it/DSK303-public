@@ -1,0 +1,15 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: gangway
+  namespace: gangway
+spec:
+  rules:
+  - host: gangway.desotech.local
+    http:
+      paths:
+      - backend:
+          service:
+            name: gangwaysvc
+            port:
+              number: 80
