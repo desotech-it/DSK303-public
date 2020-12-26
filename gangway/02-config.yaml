@@ -11,7 +11,7 @@ data:
 
     # The port to listen on. Defaults to 8080.
     # Env var: GANGWAY_PORT
-    port: 80
+    # port: 8080
 
     # Should Gangway serve TLS vs. plain HTTP? Default: false
     # Env var: GANGWAY_SERVE_TLS
