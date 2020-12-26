@@ -1,6 +1,0 @@
-    - --oidc-issuer-url=https://dex.desotech.local:32000
-    - --oidc-client-id=desocluster-via-gangway
-    - --oidc-ca-file=/etc/ssl/certs/dex-ca.pem
-    - --oidc-username-claim=email
-    - --oidc-groups-claim=groups
-    

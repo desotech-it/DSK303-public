@@ -8,8 +8,9 @@ spec:
   - host: gangway.desotech.local
     http:
       paths:
-      - backend:
-          service:
-            name: gangwaysvc
-            port:
-              number: 80
+      pathType: Prefix
+      backend:
+        service:
+          name: gangwaysvc
+          port:
+            number: 80
