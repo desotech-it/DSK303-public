@@ -11,7 +11,7 @@ data:
 
     # The port to listen on. Defaults to 8080.
     # Env var: GANGWAY_PORT
-    # port: 8080
+    port: 80
 
     # Should Gangway serve TLS vs. plain HTTP? Default: false
     # Env var: GANGWAY_SERVE_TLS
@@ -58,7 +58,7 @@ data:
 
     # API client secret as indicated by the identity provider
     # Env var: GANGWAY_CLIENT_SECRET
-    clientSecret: "ZXhhbXBsZS1hcHAtc2VjcmV0"
+    clientSecret: "DesotechTheBestTrainingPartner"
 
     # Some identity providers accept an empty client secret, this
     # is not generally considered a good idea. If you have to use an

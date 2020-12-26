@@ -17,11 +17,11 @@ data:
     oauth2:
       skipApprovalScreen: true
     staticClients:
-    - id: kubernetes-via-gangway
+    - id: desocluster-via-gangway
       redirectURIs:
       - 'http://gangway.desotech.local/callback'
-      name: 'Kubernetes via Gangway'
-      secret: ZXhhbXBsZS1hcHAtc2VjcmV0
+      name: 'Desocluster via Gangway'
+      secret: DesotechTheBestTrainingPartner
 
     enablePasswordDB: true
     staticPasswords:
