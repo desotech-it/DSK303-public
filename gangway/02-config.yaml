@@ -36,7 +36,7 @@ data:
 
     # OAuth2 URL to obtain access tokens.
     # Env var: GANGWAY_TOKEN_URL
-    tokenURL: "https://dex.desotech.local:32000/token"
+    tokenURL: "https://dex.dex.svc.desotech.local:32000/token"
 
     # Endpoint that provides user profile information [optional]. Not all providers
     # will require this.
