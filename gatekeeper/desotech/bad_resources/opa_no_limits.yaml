@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: whoami
+  namespace: production
+  labels:
+    owner: gianluca.desotech.local
+spec:
+  containers:
+    - name: whoami
+      image: r.deso.tech/library/whoami:latest

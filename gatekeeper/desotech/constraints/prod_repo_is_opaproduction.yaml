@@ -1,7 +1,7 @@
 apiVersion: constraints.gatekeeper.sh/v1beta1
 kind: K8sAllowedRepos
 metadata:
-  name: prod-repo-is-openpolicyagent
+  name: prod-repo-is-opaproduction
 spec:
   match:
     kinds:
@@ -11,4 +11,4 @@ spec:
       - "production"
   parameters:
     repos:
-      - "openpolicyagent"
+      - "r.deso.tech/opaproduction/"

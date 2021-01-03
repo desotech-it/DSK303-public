@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   name: production
   labels:
-    owner: "me"
+    owner: "gianluca.desotech.local"

@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: opa
+  namespace: production
+  labels:
+    owner: gianluca.desotech.local
+spec:
+  containers:
+    - name: whoami
+# Changing repo to opaproduction
+      image: r.deso.tech/opaproduction/whoami:latest
+# Add new livenessProbe
+      livenessProbe:
+        httpGet:
+          path: /healthz
+          port: 80
+# Add new readinessProbe
+      readinessProbe:
+        httpGet:
+          path: /readiness
+          port: 80
+# Adding the limits to 0,3 core and 4 GB.
+      resources:
+        limits:
+          cpu: "300m"
+          memory: "4000Mi"
